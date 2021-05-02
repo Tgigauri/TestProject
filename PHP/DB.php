@@ -18,10 +18,10 @@ class DB
     //default constructor
     function __construct()
     {
-        $this->db = "id16494971_store";
-        $this->host = "localhost";
-        $this->username = "id16494971_storedb";
-        $this->password = "DBpass!12345";
+        $this->db = ";
+        $this->host = "";
+        $this->username = "";
+        $this->password = "";
         $this->charset = "utf8mb4";
         $this->dsn = "mysql:host=$this->host;dbname=$this->db;charset=$this->charset";
         $this->con = new PDO($this->dsn, $this->username, $this->password);
