@@ -1,0 +1,45 @@
+.header{
+    border-bottom: 1px solid black;
+}
+
+.products {
+    margin-left: 50px;
+    margin-top: 50px;
+    max-width: 400px;
+    padding:20px;
+    font-size: large;
+    outline-style: solid;
+    text-align: center;
+    background-color:lightsteelblue;
+    width: 100%;
+    float: left;
+}
+
+#MassDelete{  
+        position: absolute;
+        right: 0.5%;
+        background-color:#B22222;
+        font-size: 15px;
+        font-family:serif;
+        font-size: 18px;
+        
+}
+   
+#Add{
+        font-family:serif;
+        position: absolute;
+        right: 7.5%;
+        background-color:lightgrey;
+        background-color: DodgerBlue;
+        font-size: 18px;
+}
+
+
+footer {
+    border-top: 1px solid black;
+    position:absolute;
+    bottom:0;
+    width:99%;
+    height:60px;
+    text-align: center;
+ }

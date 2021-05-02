@@ -1,0 +1,52 @@
+
+
+input[type=text] {
+    text-align: center;
+    width: 25%;
+    padding: 5px 12px;
+    margin: 6px 0;
+    display: block;
+    margin-right: auto;
+  }
+
+
+#product {
+    appearance: none;
+    color: white;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    width: 125px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+
+  footer {
+    border-top: 1px solid black;
+    position:absolute;
+    bottom:0;
+    width:99%;
+    height:60px;
+    text-align: center;
+ }
+
+.cancel{
+    font-family: 'Trebuchet MS';
+    border-color:transparent;
+    color: white;
+    background-color: DodgerBlue;
+    margin-left: 38.65cm;
+    margin-top: 2px;
+    width: 60px;
+    height: 25px;
+}
+#submitproducts{
+    font-weight:bold;
+    font-family:'Segoe UI';
+    border-radius: 2cm;
+    background-color: #32CD32;
+    width: 70px;
+    height: 40px;
+}
